@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    text-align: center;
+    background:url("zurich-1577301_960_720.jpg");
+    background-size:cover;
+    height: 51%;
+    color: white;
+    
+}
+
+h1{
+    font-size: 70px;
+    font-family: fantasy;
+    padding:30px;
+}
+
+img{
+    height: 150px;
+    width:150px;
+    margin-top:40px;
+    border: 7px solid white;
+    border-radius:50px;
+}
+
+li{
+    padding: 0px 50px 0px 50px;
+    display:inline;
+}
+nav{
+    background:rgba(0,0,0,.5);
+    position: relative;
+    top: 45px;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+article{
+    margin:0 auto;
+    max-width: 900px;
+    padding: 50px;
+    text-align: justify;
+}
+
+button{
+    float:right;
+}
+
+@media (max-width:768px){
+    nav {
+        position: relative;
+        top: 3px;
+    }
+}
+
+@media (max-width:425px){
+    h1 {
+        font-size: 48px;
+        font-family: fantasy;
+        padding: 30px;
+    }
+}
+
+@media (max-width:375px){
+    img {
+        height: 105px;
+        width: 105px;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-family: fantasy;
+        padding: 29px;
+    }
+    nav {
+        position: relative;
+        top: 48px;
+    }
+}
+
+@media (max-width:320px){
+    img {
+        height: 95px;
+        width: 95px;
+    }
+
+    nav {
+        background: rgba(0,0,0,.5);
+        position: relative;
+        top: 42px;
+    }
+
+    li {
+        padding: 0px;
+        display: block;
+    }
+
+    h1 {
+        font-size: 45px;
+        font-family: fantasy;
+        padding: 11px;
+    }
+}
+
+
+

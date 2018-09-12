@@ -1,0 +1,202 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+
+body{
+    
+    background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+   
+}
+header{
+    background: url(images/glasses-1477081__340.jpg);
+    background-size: cover;
+    text-align: center;
+    
+}
+
+ h1{
+    font-size: 150px;
+    padding-top: 80px;
+    margin-bottom:30px;
+    font-family: 'Ruslan Display', cursive;
+    color:#E1FAFE;
+ }
+ h2 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+    position: absolute;
+    right: 490px;
+    top: 204px;
+}
+
+nav{
+    background: rgba(0,0,0,.6);
+    margin-top:50px;
+    margin-top: 256px;
+}
+
+ nav ul li{
+     display:inline;
+     padding:0px 80px 0px 80px;
+ }
+
+ nav ul li a{
+     font-size:30px;
+     color: white;
+     text-decoration: none;
+     transition: 500ms;
+ }
+
+ nav ul li a:hover{
+     font-size:25px;
+     background-color: darkgray;
+     color:black;
+ }
+
+
+.pic1{
+background: url(images/1463001231-gettyimages-472106542.jpg);
+background-size: cover;
+background-position-x: 291px;
+height: 367px;
+}
+.pic2{
+background: url(images/stocksy-txp9763a78d5ke100-medium-566455-1505506227.jpg);
+background-size: cover;
+background-position-x: 295px;
+height: 367px;
+}
+.pic3{
+background: url(images/gettyimages-71917252-1522088135.jpg);
+background-size: cover;
+background-position-x: 295px;
+height: 367px;
+}
+.pic4{
+background: url(images/1487694308-moscow-mule.jpg);
+background-size: cover;
+background-position-x: 295px;
+height: 367px;
+}
+.pic5{
+background: url(images/1488384964-old-fashioned.jpg);
+background-size: cover;
+background-position-x: 291px;
+height: 367px;
+}
+.pic6{
+background: url(images/1502475820-stocksy-txp7887cdebgvb100-medium-484111mod.jpg);
+background-size: cover;
+background-position-x: 295px;
+height: 367px;
+}
+.pic7{
+background: url(images/1499453733-stocksy-txpbba5a854bqx000-medium-471479.jpg);
+background-size: cover;
+background-position-x: 295px;
+height: 367px;
+}
+.pic8{
+background: url(images/gettyimages-489000697-1522089617.jpg);
+background-size: cover;
+background-position-x: 295px;
+height: 367px;
+}
+.pic9{
+background: url(images/shutterstock-442299592mod-1512080757.jpg);
+background-size: cover;
+background-position-x: 291px;
+height: 367px;
+}
+
+section{
+    width: 1020px;
+    margin:120px auto;
+    display:flex;
+}
+
+span{
+    float:right;
+}
+
+.menu {
+   max-width: 28%;
+   margin: 0px 20px 10px 20px;
+   border-radius:15px;
+   position: relative;
+   
+}
+p {
+   color: rgba(255,255,255,1);
+   background: black;
+   background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+   padding: 10px;
+   line-height: 28px;
+   text-align: justify;
+   border-radius:12px;
+   margin: 0;
+   height:30px;
+   transition:height .5s;
+   -webkit-transition:height .5s;
+   -moz-transition:height .5s;
+}
+
+small{
+    opacity: 0;
+}
+.show-description p{
+    height:348px; 
+}
+   
+.show-description small{
+    opacity:1; 
+}
+
+
+@media (max-width:768px){
+    header {
+        height: 262px;
+    }
+
+    h1 {
+        font-size: 96px;
+        padding-top: 38px;
+        
+    }
+    h2 {
+        color: white;
+        font-size: 22px;
+        font-family: 'Great Vibes', cursive;
+        position: absolute;
+        right: 189px;
+        top: 113px;
+    }
+
+    nav {
+        background: rgba(0,0,0,.6);
+        margin-top: 50px;
+        margin-top: 120px;
+    }
+
+    nav ul li{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+    section {
+        width: 768px;
+        margin: 120px auto;
+        display: flex;
+    }
+
+    .pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7,.pic8,.pic9 {
+        background-position-x: 256px;
+    }
+}
